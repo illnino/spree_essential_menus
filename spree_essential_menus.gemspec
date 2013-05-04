@@ -20,10 +20,10 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   # Spree Essentials
-  s.add_runtime_dependency('spree_essentials', '~> 0.5.0')
+  s.add_runtime_dependency('spree_essentials', '~> 0.6.0')
   s.add_runtime_dependency('coffee-rails')
   s.add_runtime_dependency('acts_as_tree', '~> 1.1.0')
-  
+
   s.add_runtime_dependency('haml')
 
   s.add_development_dependency 'capybara', '1.0.1'
